@@ -1,0 +1,167 @@
+/* ------ Base Element Styles ------ */
+
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Quicksand', sans-serif;
+	line-height: 1.6;
+	color: #00000;
+	margin: 0;
+	background: #FFF url(../images/bkgd.png) repeat-x;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+p {
+	font-size: 1em;
+	line-height: 1.5em;
+	margin-top: .25em;
+	margin-bottom: .75em;
+}
+h2,
+h3,
+a {
+	color: #00000;
+}
+h2,
+h3,
+h4 {
+	margin-top: 1em;
+	margin-bottom: 0;
+}
+a {
+	text-decoration: none;
+}
+img {
+	max-width: 100%;
+}
+
+/* ------ Base Layout Styles ------ */
+
+/* ---- Navigation ---- */
+
+.name {
+	font-size: 1.5em;
+	margin: 0;
+}
+.main-nav {
+	margin-top: 5px;
+}
+.name a,
+.main-nav a {
+	text-align: center;
+	display: block;
+	padding: 10px 15px;
+	text-shadow: 1px 1px 1px #aaa;
+}
+.main-nav a {
+	font-size: 1em;
+	color: #3a3a3a;
+	text-transform: uppercase;
+}
+.main-nav a:hover {
+	color: #e0de79;
+}
+
+/* ---- Layout Containers ---- */
+
+.main-header {
+	padding-top: .5em;
+	padding-bottom: .5em;
+}
+.banner,
+.main-footer {
+	text-align: center;
+}
+.banner {
+	color: #fff;
+	background: #afafa8;
+	height: 1px;
+	margin-bottom: 30px;
+}
+.col {
+	padding-right: 1em;
+	padding-left: 1em;
+}
+.main-footer {
+	padding: 0;
+	margin-top: 20px;
+}
+
+/* ---- Gallery Elements ---- */
+
+#thumbnail {
+    width: 640px;
+	margin-left: 10px;
+	float: left;
+}
+.web {
+    width: 640px;
+	margin-left: 10px;
+	float: left;
+}
+.photography {
+    width: 640px;
+	margin-left: 10px;
+	float: left;
+}
+.thumbnail {
+	padding: 4px;
+	float: left;
+	margin: 5px;
+	}	
+
+a {
+	outline: none;
+	text-decoration: none;
+	color: #000;
+}
+a img { border: 1px #FFF; }
+.thumbnail a img {
+	border: 1px inset #FFF;
+}
+
+/* ---- Page Elements ---- */
+
+.logo {
+	width: 140px;
+}
+.headline {
+	margin-bottom: 0;
+}
+.feat-img {
+	border-radius: 5px;
+}
+
+/* ---- Footer Navigation ---- */
+
+.footer-nav a {
+	text-align: center;
+	display: block;
+	padding: 10px 15px;
+	text-shadow: 1px 1px 1px #aaa;
+	font-size: 1em;
+	color: #3a3a3a;
+	text-transform: uppercase;
+}
+.footer-nav a:hover {
+	color: #e0de79;
+}
+
+/* ---- Media Queries ---- */
+
+@media (min-width: 769px) {
+	.main-header,
+	.row,
+  .footer-inner {
+		width: 60%;
+		margin: 0 auto;
+		max-width: 1150px;
+	}
+	.tagline {
+		font-size: 1.4em;
+	}
+}
