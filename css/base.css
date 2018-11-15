@@ -85,10 +85,26 @@ img {
 .col {
 	padding-right: 1em;
 	padding-left: 1em;
+	float: left;
+    width: 50%;
+}
+.gal {
+	padding-right: 1em;
+	padding-left: 1em;
+}
+.bio {
+	padding-right: 1em;
+	padding-left: 1em;
 }
 .main-footer {
 	padding: 0;
 	margin-top: 20px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 /* ---- Gallery Elements ---- */
